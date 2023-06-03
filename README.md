@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# CryptoCoin Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Crypto_Track is a web application that allows users to track cryptocurrency prices and market information. It retrieves data from the CoinGecko API and provides a user-friendly interface to view and search for cryptocurrencies.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- View a list of the top 50 cryptocurrencies by market capitalization.
+- Search for cryptocurrencies by name or symbol.
+- Click on a cryptocurrency to view detailed information.
+- Responsive design for optimal viewing on different devices.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: JavaScript library for building user interfaces.
+- React Router: Library for handling routing within a React application.
+- Axios: Promise-based HTTP client for making API requests.
+- CoinGecko API: Provides cryptocurrency market data and information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js: Make sure Node.js is installed on your machine. You can download it from [https://nodejs.org](https://nodejs.org).
 
-### `npm run build`
+### Installation and Running
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install the dependencies by running `npm install`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server by running `npm start`.
 
-### `npm run eject`
+4. Open the app in your browser at `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### API Information
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The Crypto_Track application retrieves data from the CoinGecko API. The API provides comprehensive cryptocurrency market data, including prices, market capitalization, volume, and more. For more information about the API and available endpoints, visit [https://www.coingecko.com/api/documentation](https://www.coingecko.com/api/documentation).
 
-## Learn More
+Please note that the availability and usage limits of the CoinGecko API are subject to the API provider's terms and conditions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Note:** If you encounter the issue of always showing "no results found" by default, it might be due to CORS (Cross-Origin Resource Sharing) restrictions. Please ensure that your browser allows cross-origin requests to the API. You may need to configure CORS settings on the server-side or use a proxy server to bypass the CORS issue.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions to Crypto_Track are welcome! If you find any issues or would like to suggest improvements, please open an issue or submit a pull request to the repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This Project was made by me ' Mekki Harboub'.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
